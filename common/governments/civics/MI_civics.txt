@@ -67,7 +67,7 @@ civic_mi_machine_producers = {
 		origin = {
 			NOR = {
 				value = origin_machine
-				value = origin_mi_machine_producers
+				value = origin_mi_machine_protectors
 			}
 		}
 	}
