@@ -1,0 +1,85 @@
+mi_setup_machine_slavers_capital = {
+	# Modify secondary species.
+	last_created_species = {
+		if = {
+			limit = {
+				root = {
+					is_planet_class = pc_shattered_ring_habitable
+				}
+			}
+			modify_species = {
+				species = this
+				ideal_planet_class = home_planet
+			}
+		}
+		set_citizenship_type = {
+			country = root.owner
+			type = citizenship_slavery
+		}
+		set_slavery_type = {
+			country = root.owner
+			type = slavery_normal
+		}
+		set_living_standard = {
+			country = root.owner
+			type = living_standard_subsistence
+		}
+		# Set lithoid country flag.
+		if = {
+			limit = {
+				is_lithoid = yes
+			}
+			owner = {
+				set_country_flag = lithoid_subspecies
+				remove_country_flag = non_lithoid_subspecies
+			}
+		}
+		else = {
+			owner = {
+				set_country_flag = non_lithoid_subspecies
+				remove_country_flag = lithoid_subspecies
+			}
+		}
+	}
+	# Add secondary species.
+	while = {
+		count = 14
+		random_owned_pop = {
+			limit = {
+				is_species_class = MACHINE
+			}
+			kill_pop = yes
+		}
+		create_pop = {
+			species = last_created_species
+			ethos = random
+		}
+	}
+	# Add districts, jobs, and resources.
+	remove_district = district_generator
+	if = {
+		limit = {
+			owner = {
+				has_country_flag = lithoid_subspecies
+			}
+		}
+		owner = {
+			add_resource = {
+				minerals = 100
+			}
+		}
+		add_district_and_planet_size_if_needed_effect = {
+			district = district_mining
+		}
+	}
+	else = {
+		owner = {
+			add_resource = {
+				food = 100
+			}
+		}
+		add_district_and_planet_size_if_needed_effect = {
+			district = district_farming
+		}
+	}
+}

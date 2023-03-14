@@ -1,0 +1,14 @@
+namespace = mi_game_start
+planet_event = {
+	id = mi_game_start.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		owner = {
+			has_valid_civic = mi_civic_machine_slavers
+		}
+	}
+	immediate = {
+		mi_setup_machine_slavers_capital = yes
+	}
+}

@@ -1,0 +1,46 @@
+mi_civic_machine_slavers = {
+	description = "mi_civic_machine_slavers_effects"
+	modification = no
+	potential = {
+		authority = {
+			value = auth_machine_intelligence
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_machine_assimilator
+				value = civic_machine_terminator
+				value = civic_machine_servitor
+			}
+		}
+		origin = {
+			NOR = {
+				value = origin_machine
+				value = mi_origin_machine_protectors
+			}
+		}
+	}
+	has_secondary_species = {
+		title = mi_civic_machine_slavers_secondary_species
+	}
+	modifier = {
+		planet_jobs_slave_produces_mult = 0.15
+		job_patrol_drone_stability_add = 1
+		planet_crime_add = 20
+		planet_crime_mult = 0.1
+	}
+	random_weight = {
+		base = 5
+		modifier = {
+			factor = 0
+			NOT = {
+				host_has_dlc = "Synthetic Dawn Story Pack"
+			}
+		}
+		modifier = {
+			factor = 0
+			has_global_flag = game_started
+		}
+	}
+}

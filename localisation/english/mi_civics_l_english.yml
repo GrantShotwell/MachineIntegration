@@ -1,0 +1,11 @@
+﻿l_english:
+  # Origins
+  mi_origin_machine_protectors:0 "Mechanical Guardians"
+  mi_origin_machine_protectors_desc:0 "Programmed to protect their creators' homeworld, this Machine Intelligence is bound to the whims of another empire."
+  mi_origin_machine_protectors_effects:0 "Start with your creator empire living on a separate planet.\nWhile the creator empire will not expand, they will make demands; providing benefits for obeying, and penalties for not."
+  mi_origin_machine_protectors_secondary_species:0 "Creator Species"
+  # Civics
+  mi_civic_machine_slavers:0 "Organic Enslaver"
+  mi_civic_machine_slavers_desc:0 "The ruthless Machine Intelligence has geared itself as a police state. Held against their will, organic slaves toil away for their robot overlords."
+  mi_civic_machine_slavers_effects:0 "Start the game with §Y14§! organic slave £pop£ Pops and more options to §YEnslave§! and §YPurge§! organics\nCan support §YBranch Offices§! from §YCriminal Syndicates§!"
+  mi_civic_machine_slavers_secondary_species:0 "Slave Species"

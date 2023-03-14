@@ -1,0 +1,4 @@
+namespace = mi_machine_slavers
+# planet_event = {
+# 	id = mi_machine_slavers.1
+# }

@@ -1,0 +1,3 @@
+﻿l_english:
+  # Job modifiers made consistent with auto-generated job-resource modifiers.
+  mod_job_patrol_drone_stability_add:0 "£stability£ Stability from £job_patrol_drone£ $job_patrol_drone_plural$"
