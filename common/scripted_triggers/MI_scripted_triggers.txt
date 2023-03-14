@@ -1,5 +1,5 @@
 is_gestalt_enslaver = {
 	OR = {
-		has_civic = mi_civic_machine_slavers
+		has_civic = civic_mi_machine_slavers
 	}
 }

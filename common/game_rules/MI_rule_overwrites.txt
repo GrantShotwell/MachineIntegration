@@ -10,7 +10,7 @@ can_fill_drone_job = {
 			is_enslaved = no
 			AND = {
 				owner = {
-					has_valid_civic = mi_civic_machine_slavers
+					has_valid_civic = civic_mi_machine_slavers
 				}
 				NOR = {
 					has_slavery_type = {
@@ -50,7 +50,7 @@ can_support_branch_offices = {
 		fail_text = BRANCH_OFFICE_NOT_REGULAR_EMPIRE
 		OR = {
 			is_regular_empire = yes
-			has_civic = mi_civic_machine_slavers
+			has_civic = civic_mi_machine_slavers
 		}
 	}
 }

@@ -10,7 +10,7 @@ tech_neural_implants = {
 	potential = {
 		OR = {
 			is_regular_empire = yes
-			has_civic = mi_civic_machine_slavers
+			has_civic = civic_mi_machine_slavers
 		}
 	}
 	weight_modifier = {
@@ -77,7 +77,7 @@ tech_neural_implants = {
 		}
 		modifier = {
 			factor = 2
-			has_civic = mi_civic_machine_slavers
+			has_civic = civic_mi_machine_slavers
 		}
 	}
 }

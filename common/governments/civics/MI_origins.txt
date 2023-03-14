@@ -1,7 +1,7 @@
 # Secondary, isolationist planet that the machine intelligence protects.
 # Use new "First Contact" origin that is similar.
-mi_origin_machine_protectors = {
-	description = "mi_origin_machine_protectors"
+origin_mi_machine_protectors = {
+	description = "origin_mi_machine_protectors"
 	is_origin = yes
 	playable = {
 		host_has_dlc = "Synthetic Dawn Story Pack"
@@ -15,8 +15,8 @@ mi_origin_machine_protectors = {
 				value = civic_machine_assimilator
 				value = civic_machine_terminator
 				value = civic_machine_servitor
-				value = mi_civic_machine_slavers
-				value = mi_civic_machine_producers
+				value = civic_mi_machine_slavers
+				value = civic_mi_machine_producers
 			}
 		}
 	}
@@ -25,6 +25,6 @@ mi_origin_machine_protectors = {
 	# 	mi_sol_machine_protectors_system
 	# }
 	has_secondary_species = {
-		title = mi_origin_machine_protectors_secondary_species
+		title = origin_mi_machine_protectors_secondary_species
 	}
 }
