@@ -23,7 +23,7 @@ civic_mi_machine_slavers = {
 		}
 	}
 	has_secondary_species = {
-		title = mi_civic_machine_slavers_secondary_species
+		title = civic_mi_machine_slavers_secondary_species
 	}
 	modifier = {
 		planet_jobs_slave_produces_mult = 0.15
