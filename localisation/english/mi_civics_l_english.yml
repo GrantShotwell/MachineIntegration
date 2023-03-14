@@ -9,3 +9,7 @@
   mi_civic_machine_slavers_desc:0 "The ruthless Machine Intelligence has geared itself as a police state. Held against their will, organic slaves toil away for their robot overlords."
   mi_civic_machine_slavers_effects:0 "Start the game with §Y14§! organic slave £pop£ Pops and more options to §YEnslave§! and §YPurge§! organics\nCan support §YBranch Offices§! from §YCriminal Syndicates§!"
   mi_civic_machine_slavers_secondary_species:0 "Slave Species"
+  mi_civic_machine_producers:0 "Obsessive Manufacturing"
+  mi_civic_machine_producers_desc:0 "This Machine Intelligence has the singular purpose of producing consumer goods, but is limited by its inability to initiate wars."
+  mi_civic_machine_producers_effects:0 "Start the game with §Y10§! pacified organic £pop£ Pops, and may only set organic species to §YChemical Bliss§!\nUnable to declare §YWars§!, but can provoke them through unique §YEspionage§! options"
+  mi_civic_machine_producers_secondary_species:0 ""

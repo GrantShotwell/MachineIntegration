@@ -16,6 +16,7 @@ mi_origin_machine_protectors = {
 				value = civic_machine_terminator
 				value = civic_machine_servitor
 				value = mi_civic_machine_slavers
+				value = mi_civic_machine_producers
 			}
 		}
 	}
