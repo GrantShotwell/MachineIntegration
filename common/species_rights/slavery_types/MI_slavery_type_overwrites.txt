@@ -12,7 +12,12 @@ slavery_normal = {
 	}
 
 	potential = {
-		from = { NOT = { has_ethic = ethic_gestalt_consciousness } }
+		from = {
+			OR = {
+				NOT = { has_ethic = ethic_gestalt_consciousness }
+				has_civic = civic_mi_machine_slavers
+			}
+		}
 	}
 
 	allow = {
@@ -57,7 +62,10 @@ slavery_military = {
 
 	potential = {
 		host_has_dlc = "Utopia"
-		from = { NOT = { has_ethic = ethic_gestalt_consciousness } }
+		OR = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+			has_civic = civic_mi_machine_slavers
+		}
 	}
 
 	allow = {
@@ -82,7 +90,10 @@ slavery_matrix = {
 
 	potential = {
 		host_has_dlc = "Synthetic Dawn Story Pack"
-		from = { has_authority = auth_machine_intelligence }
+		OR = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+			has_civic = civic_mi_machine_slavers
+		}
 	}
 
 	in_breach_of = {
@@ -110,7 +121,10 @@ slavery_livestock = {
 
 	potential = {
 		host_has_dlc = "Utopia"
-		from = { NOT = { has_authority = auth_machine_intelligence } }
+		OR = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+			has_civic = civic_mi_machine_slavers
+		}
 	}
 
 	in_breach_of = {
