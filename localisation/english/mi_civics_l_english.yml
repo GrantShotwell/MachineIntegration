@@ -14,5 +14,5 @@
   ## Obsessive Hoarding ##
   civic_mi_machine_producers:0 "Obsessive Hoarding"
   civic_mi_machine_producers_desc:0 "This Machine Intelligence has the singular purpose of producing consumer goods, but is constrained by \"ethical laws\" which inhibit its ability to initiate conflict."
-  civic_mi_machine_producers_effects:0 "Start the game with §Y8§! pacified organic £pop£ Pops, and may only set organic species to §YChemical Bliss§!\nUnable to declare §YWars§!, but can provoke them through unique §YEspionage§! options\nReceive bonuses from having a large stockpile of £consumer_goods£ §YConsumer Goods§!\nCan research unique upgrades to £building£ §YResource Silos§!"
+  civic_mi_machine_producers_effects:0 "Start the game with §Y8§! pacified organic £pop£ Pops, and may only set organic species to §YPacification§!\nUnable to declare §YWars§!, but can provoke them through unique §YEspionage§! options\nReceive bonuses from having a large stockpile of £consumer_goods£ §YConsumer Goods§!\nCan research unique upgrades to £building£ §YResource Silos§!"
   civic_mi_machine_producers_secondary_species:0 "Pacified Species"
