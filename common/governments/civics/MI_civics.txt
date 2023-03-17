@@ -55,7 +55,6 @@ civic_mi_machine_producers = {
 		}
 	}
 	possible = {
-		always = no
 		civics = {
 			NOR = {
 				value = civic_machine_assimilator

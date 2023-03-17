@@ -62,9 +62,11 @@ slavery_military = {
 
 	potential = {
 		host_has_dlc = "Utopia"
-		OR = {
-			NOT = { has_ethic = ethic_gestalt_consciousness }
-			has_civic = civic_mi_machine_slavers
+		from = {
+			OR = {
+				NOT = { has_ethic = ethic_gestalt_consciousness }
+				has_civic = civic_mi_machine_slavers
+			}
 		}
 	}
 
@@ -90,9 +92,11 @@ slavery_matrix = {
 
 	potential = {
 		host_has_dlc = "Synthetic Dawn Story Pack"
-		OR = {
-			NOT = { has_ethic = ethic_gestalt_consciousness }
-			has_civic = civic_mi_machine_slavers
+		from = {
+			OR = {
+				NOT = { has_ethic = ethic_gestalt_consciousness }
+				has_civic = civic_mi_machine_slavers
+			}
 		}
 	}
 
@@ -121,9 +125,11 @@ slavery_livestock = {
 
 	potential = {
 		host_has_dlc = "Utopia"
-		OR = {
-			NOT = { has_ethic = ethic_gestalt_consciousness }
-			has_civic = civic_mi_machine_slavers
+		from = {
+			OR = {
+				NOT = { has_ethic = ethic_gestalt_consciousness }
+				has_civic = civic_mi_machine_slavers
+			}
 		}
 	}
 

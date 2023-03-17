@@ -6,4 +6,4 @@ tags={
 	"Buildings"
 }
 name="Machine Integration"
-supported_version="3.6.1"
+supported_version="3.7.*"

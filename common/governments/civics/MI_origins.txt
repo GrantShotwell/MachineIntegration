@@ -1,7 +1,7 @@
 # Secondary, isolationist planet that the machine intelligence protects.
 # Use new "First Contact" origin that is similar.
 origin_mi_machine_protectors = {
-	description = "origin_mi_machine_protectors"
+	description = "origin_mi_machine_protectors_effects"
 	is_origin = yes
 	playable = {
 		host_has_dlc = "Synthetic Dawn Story Pack"

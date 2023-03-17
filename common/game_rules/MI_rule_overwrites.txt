@@ -55,16 +55,6 @@ can_support_branch_offices = {
 	}
 }
 
-can_build_branch_offices = {
-	custom_tooltip = {
-		fail_text = BRANCH_OFFICE_NOT_MEGACORP
-		OR = {
-			has_authority = auth_corporate
-			has_civic = civic_galactic_sovereign_megacorp
-		}
-	}
-}
-
 can_build_branch_office_on_planet = {
 	custom_tooltip = {
 		fail_text = requires_recipient_not_fanatic_purifiers
